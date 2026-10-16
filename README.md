@@ -1,6 +1,7 @@
 # Estimación de la tasa de producción de petróleo a partir de parámetros operativos — Campo Volve
 
 **Proyecto integrador · Cursos preparatorios · Maestría en Inteligencia Artificial Aplicada (UIDE)
+
 Autor:** *Alan Israel López Males*  
 **Fecha:** 15 de octubre de 2026
 
@@ -48,18 +49,8 @@ La red neuronal obtuvo el menor error con la semilla 42, pero su desempeño var�
 
 ## Cómo ejecutarlo
 
-**Opción 1 — Google Colab:** sube el notebook y el archivo `data/Volve\_production\_data.xlsx` (el notebook ofrece subir el archivo si no lo encuentra) y ejecuta todas las celdas.
+**Google Colab:** sube el notebook y el archivo `data/Volve\_production\_data.xlsx` (el notebook ofrece subir el archivo si no lo encuentra) y ejecuta todas las celdas.
 
-**Opción 2 — Local:**
-
-```bash
-git clone <URL-del-repositorio>
-cd <carpeta-del-repositorio>
-python -m venv .venv \&\& source .venv/bin/activate      # en Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
-jupyter notebook proyecto\_integrador\_volve.ipynb       # ejecutar todas las celdas
-streamlit run app.py                                   # interfaz gráfica
-```
 
 > El modelo guardado se entrenó con scikit-learn 1.8.0. Si usas otra versión y aparece una advertencia al cargarlo, vuelve a ejecutar el notebook para regenerarlo.
 
