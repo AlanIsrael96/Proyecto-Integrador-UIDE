@@ -1,8 +1,9 @@
 # Estimación de la tasa de producción de petróleo a partir de parámetros operativos — Campo Volve
 
 **Proyecto integrador · Cursos preparatorios · Maestría en Inteligencia Artificial Aplicada (UIDE)
-Autor:** *Alan Israel López Males* · **Fecha:** 15 de octubre de 2026
-**Video de presentación:** *(enlace al video)*
+Autor:** *Alan Israel López Males*  
+**Fecha:** 15 de octubre de 2026
+
 
 ## Descripción
 
